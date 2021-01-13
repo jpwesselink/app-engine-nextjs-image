@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8080",
     "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "node --max_old_space_size=8192 --optimize_for_size --stack_size=8192 --trace-warnings node_modules/typescript/bin/tsc --pretty --noEmit",
     "lint": "node --max_old_space_size=8192 --optimize_for_size --stack_size=8192 --trace-warnings node_modules/.bin/eslint . --ext ts --ext tsx --ext js"
